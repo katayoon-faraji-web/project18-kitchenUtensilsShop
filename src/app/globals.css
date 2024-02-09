@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* #0e5540 green*/ 
+/* #0f5643 */
+/* #f4a620 yellow */
+/* #bc004b pink */
+@font-face {
+    font-family: font1;
+    src: url("./../../public//fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: font2;
+    src: url("./../../public/fonts/Lobster/Lobster-Regular.ttf") format("opentype");
+}
+
+
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+    
+}
+
+.image-gallery {
+    @media screen and (max-width:768px) {
+        width: 80%;
+        height: 80%;
+    }
+    @media screen and (max-width:992px) {
+        width: 60%;
+        height: 60%;
+    }
+    @media screen and (max-width:1200px) {
+        width: 90%;
+        height: 100%;
+    }
+    width: 55%;
+    height: 35%;
+
+}
+
+.image-gallery-slide img {
+    margin-bottom: 40px;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: center center;
+}
+
+.fullscreen .image-gallery-slide img {
+    max-height: 100vh;
+}
+@import url('./custom.css');
