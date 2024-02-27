@@ -6,7 +6,7 @@
 
 - 🗓️Created - 2024-02-09
 
-- 💻Technologies Used - Html , Css , Api , Swiper , React-icons , MUI , Formik , Yup , React-images-gallery , Tailwind , Nextjs
+- 💻Technologies Used - Html , Css , Api , Swiper , React-icons , MUI , Formik , Yup , React-images-gallery , Tw Elements , Tailwind , Nextjs
 
 - Responsive
   
